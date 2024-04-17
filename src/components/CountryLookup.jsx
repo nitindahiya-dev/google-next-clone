@@ -12,7 +12,6 @@ export default function CountryLookup() {
                 const countryData = response.country;
                 if (!countryData) return;
                 setCountry(countryData);
-                console.log(response.country);
             } catch (error) {
                 console.error("Error fetching country:", error);
             }
