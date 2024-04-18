@@ -1,4 +1,4 @@
-import CountryLookup from "./countryLookup"
+import CountryLookup from "../components/CountryLookup"
 
 export default function HomeFooter() {
   return (
